@@ -1,0 +1,17 @@
+{
+  "name": "juejin-actions",
+  "version": "1.0.0",
+  "description": "juejin auto sign actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "action"
+  ],
+  "author": "banruo",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.25.0"
+  }
+}
