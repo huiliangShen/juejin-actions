@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6bc6d361-64ae-4ab8-adec-7763c433d702" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitingore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitingore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/action.yml" beforeDir="false" afterPath="$PROJECT_DIR$/action.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.modules.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.modules.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.pnpm/lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.pnpm/lock.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,12 +46,24 @@
       <updated>1643080519738</updated>
       <workItem from="1643080520924" duration="869000" />
       <workItem from="1643092007365" duration="2936000" />
-      <workItem from="1643161528738" duration="3981000" />
+      <workItem from="1643161528738" duration="4693000" />
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1643182392881</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1643182392881</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="650" y="342" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1643179488462">
@@ -63,6 +71,18 @@
     </state>
     <state x="650" y="326" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1643080538363" />
     <state x="650" y="342" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1920.1057@0.23.1920.1057" timestamp="1643179488462" />
+    <state x="478" y="23" key="CommitChangelistDialog2" timestamp="1643182392719">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="478" y="23" key="CommitChangelistDialog2/0.23.1920.1057@0.23.1920.1057" timestamp="1643182392719" />
+    <state x="192" y="118" key="DiffContextDialog" timestamp="1643182362946">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="192" y="118" key="DiffContextDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1643182362946" />
+    <state x="460" y="205" key="Vcs.Push.Dialog.v2" timestamp="1643182394242">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="460" y="205" key="Vcs.Push.Dialog.v2/0.23.1920.1057@0.23.1920.1057" timestamp="1643182394242" />
     <state x="598" y="223" width="724" height="656" key="find.popup" timestamp="1643179894961">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
