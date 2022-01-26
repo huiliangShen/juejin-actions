@@ -1,6 +1,6 @@
 import {createTransport} from 'nodemailer'
-import {email} from "../../config";
-import LogService from "./log-service";
+import {email} from "../../config/index.js";
+import LogService from "./log-service.js";
 
 class EmailService extends LogService {
     constructor() {

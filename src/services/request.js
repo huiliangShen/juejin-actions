@@ -1,6 +1,6 @@
 import axios from "axios";
-import to from './await-to';
-import {headers} from "../config";
+import to from './await-to.js';
+import {headers} from "../config/index.js";
 
 export const isObject = obj => typeof obj === 'object' && obj != null;
 

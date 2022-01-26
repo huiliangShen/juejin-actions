@@ -1,4 +1,4 @@
-import {checkIn, getCounts, getCurPoint, getStatus} from './services'
+import {checkIn, getCounts, getCurPoint, getStatus} from './services/index.js'
 
 async function getInfo() {
     const [err1, res1] = await getCurPoint();
