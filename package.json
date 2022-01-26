@@ -4,8 +4,9 @@
   "description": "juejin auto sign actions",
   "main": "dist/index.cjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "commit": "git-cz",
+    "release": "release-it",
+    "test": "node test/test.mjs",
     "build": "esbuild --bundle index.js --format=cjs --platform=node --outfile=dist/index.cjs"
   },
   "keywords": [

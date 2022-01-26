@@ -19,7 +19,7 @@ on:
 jobs:
   juejin:
     runs-on: ubuntu-latest
-      name: 掘金自动签到
+#      name: 掘金自动签到
       steps:
         - name: Hello world action step
           id: hello
