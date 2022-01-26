@@ -19,25 +19,25 @@ on:
 jobs:
   juejin:
     runs-on: ubuntu-latest
-#      name: 掘金自动签到
-      steps:
-        - name: Hello world action step
-          id: hello
-          uses: huiliangShen/juejin-actions@main
-          env:
-            JUEJIN_COOKIE: ${{secrets.JUEJIN_COOKIE}}
-            MAIL_SENDER: ${{secrets.MAIL_SENDER}}
-            SMTP_PASSWORD: ${{secrets.SMTP_PASSWORD}}
-            MAIL_HOST_SENDER: ${{secrets.MAIL_HOST_SENDER}}
-            MAIL_PORT_SENDER: ${{secrets.MAIL_PORT_SENDER}}
-            MAIL_RECIPIENT: ${{secrets.MAIL_RECIPIENT}}
-          with:
-            who-to-greet: 'banruo'
-        # Use the output from the `hello` step
-        - name: 点此查看输出结果，比如：签到结果
-          run: |
-            echo "The time was ${{ steps.hello.outputs.time }}"
-            echo "签到结果： ${{ steps.hello.outputs.checkInResult }}"
+    name: 掘金自动签到
+    steps:
+      - name: Hello world action step
+        id: hello
+        uses: huiliangShen/juejin-actions@main
+        env:
+          JUEJIN_COOKIE: ${{secrets.JUEJIN_COOKIE}}
+          MAIL_SENDER: ${{secrets.MAIL_SENDER}}
+          SMTP_PASSWORD: ${{secrets.SMTP_PASSWORD}}
+          MAIL_HOST_SENDER: ${{secrets.MAIL_HOST_SENDER}}
+          MAIL_PORT_SENDER: ${{secrets.MAIL_PORT_SENDER}}
+          MAIL_RECIPIENT: ${{secrets.MAIL_RECIPIENT}}
+        with:
+          who-to-greet: 'banruo'
+      # Use the output from the `hello` step
+      - name: 点此查看输出结果，比如：签到结果
+        run: |
+          echo "The time was ${{ steps.hello.outputs.time }}"
+          echo "签到结果： ${{ steps.hello.outputs.checkInResult }}"
   # This workflow contains a single job called "build"
 #  build:
 #    # The type of runner that the job will run on
